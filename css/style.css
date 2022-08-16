@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hola_mundo{
+    background-color: aqua;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@media {(max-width: 650px)
+.hola_mundo{
+    background-color: red;
+}}
