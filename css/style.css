@@ -9,7 +9,10 @@
     max-width: 650px;
     margin: 15px auto;
 }
-
+.flex-index{
+    display: flex;
+    
+}
 @media {(max-width: 650px)
 .hola_mundo{
     background-color: red;
