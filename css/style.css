@@ -9,17 +9,26 @@
   max-width: 650px;
   margin: 15px auto;
 }
+
+.hola_mundo:hover {
+  background-color: aquamarine;
+  transition: 0.3s;
+}
+h1:hover {
+color: white;
+transform: skew(-15deg);
+transition: .3s;
+}
 .flex-index {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.flex-index img{
-    padding: 5px;
+.flex-index img {
+  padding: 5px;
 }
 @media (max-width: 650px) {
   .hola_mundo {
     background-color: rgb(255, 166, 0);
   }
-
 }
